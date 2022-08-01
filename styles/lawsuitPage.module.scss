@@ -1,0 +1,83 @@
+.section {
+  height: max(calc(100vh - 10rem), 100%);
+  min-height: 80rem;
+  display: flex;
+  justify-content: center;
+  padding: 7.5rem 2.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.details {
+  display: flex;
+  margin-top: 1.6rem;
+
+  @media (max-width: 52.5rem) {
+    flex-wrap: wrap;
+  }
+}
+
+.extra {
+  min-width: 20rem;
+  background-color: #fff;
+ 
+  > div {
+ 
+   h3 {
+     margin-bottom: 1rem;
+   }
+   p + p {
+     margin-top: 1rem;
+   }
+  }
+ }
+
+ .movContainer + .extra {
+  margin-left: 2rem;
+
+  @media(max-width: 52.5rem) {
+    margin-left: 0;
+    margin-top: 1.6rem;
+  }
+
+}
+
+
+.movContainer {
+  width: 100%;
+  border: 1px solid #888;
+  overflow-y: hidden;
+  
+}
+
+.movHeader {
+  background-color: green;
+  color: #fff;
+  padding: 2rem;
+}
+
+.movimento {
+  padding: 1.5rem 2rem;
+}
+
+.movimento + .movimento {
+  border-top : 1px solid #ccc;
+}
+
+.parties {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+}
+
+.party + .party {
+  margin-top: 1rem;
+}
