@@ -3,8 +3,7 @@ import { useState } from 'react';
 import styles from './Search.module.scss';
 
 export default function Search() {
-    const [lawsuitNum, setLawsuitNum] = useState('');
-    const [jurisdiction, setJurisdiction] = useState('');
+    const [lawsuitNum, setLawsuitNum] = useState('');    
     const handleEventChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const inputValue = event.target.value;
         setLawsuitNum(inputValue);
