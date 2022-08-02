@@ -37,6 +37,8 @@ Para comodidade da conferência do funcionamento da API que consulta o banco de 
 
 ## Dos Testes 
 
+Tentei realizar alguns testes utilizando as bibliotecas mencionadas na entrevista. Não consegui realizar um teste que eu gostaria de ter feito ( verificar se o usuário navegou para a página correta após o input ) pois não achei uma maneira de realizá-lo de uma forma que deixasse ele independente da minha implementação.
+
 
 ## Coisas que eu implementaria 
 
