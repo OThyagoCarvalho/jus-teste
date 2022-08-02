@@ -8,11 +8,7 @@ export default function Search() {
     const handleEventChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const inputValue = event.target.value;
         setLawsuitNum(inputValue);
-    };
-
-    const handleClick = () => {
-        alert(`Buscando processo ${lawsuitNum}`);
-    };
+    };    
 
     return (
         <section className={styles.section}>

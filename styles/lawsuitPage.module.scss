@@ -6,6 +6,16 @@
   padding: 7.5rem 2.5rem;
 }
 
+.altSection {
+  height: max(calc(100vh - 10rem), 100%);
+  min-height: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7.5rem 2.5rem;
+  font-size: 2.4rem;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;

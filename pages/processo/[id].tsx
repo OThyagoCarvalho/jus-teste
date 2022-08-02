@@ -23,10 +23,10 @@ export default function Processo() {
         fetcher
     );
 
-    if (error) return <div className={styles.section}> {error.message}</div>;
+    if (error) return <div className={styles.altSection}> Ops! Não Foi Possível Encontrar o seu processo. Se você digitou um número válido, é provável que o processo não esteja na nossa base de dados.</div>;
     if (!data)
         return (
-            <div className={styles.section}>
+            <div className={styles.altSection}>
                 <Loading color="success" size="xl" />
             </div>
         );
