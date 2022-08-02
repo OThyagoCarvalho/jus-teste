@@ -1,5 +1,12 @@
-## Tecnologias Escolhidas 
+## Instruções 
 
+Baixar as dependências do projeto.
+Acessar a aplicação em [localhost:3000/](http://localhost:3000)
+A aplicação espera um número CNJ formatado e redireciona para a página do processo digitado, que é renderizado se encontrado, ou apresenta uma página de erro caso não encontrado.
+A aplicação em teoria encontrará quaisquer dos  999 objetos que estão no arquivo `data.ts`, que foi usado para popular o banco de dados do Fauna e está no projeto apenas para facilitar a digitação de processos válidos que serão encontrados.
+Pode-se forçar um erro na página de processo digitando um número que não está presente no banco de dados ou um erro 404 tentando acesar alguma página que não está presente no projeto, ex: http://localhost:3000/jurisprudência.
+
+## Tecnologias Escolhidas 
 
 Após ler o desafio, acredito que com o conhecimento que possuo atualmente eu conseguiria realizá-lo por três abordagens, as quais descrevo abaixo por ordem decrescente de complexidade(para mim)!
 
